@@ -1,0 +1,142 @@
+
+/** cores #c32829 #d5cad3 #2a3258 #e4848c #646c8c**/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'B612', sans-serif;  
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Expletus Sans', cursive;
+}
+
+header {
+    padding: 16px;
+    background-color:#d5cad3;
+    color: #2a3258;
+}
+
+header nav li {
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color:#2a3258;
+    text-decoration: none;
+}
+
+.logo {
+    height: 80px;
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.truck {
+    height: 300px;
+    margin-right: 32px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #2a3258;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea{
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+form button {
+    background-color: #d5cad3;
+    color: #2a3258;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #646c8c;
+    color: #d5cad3
+}
+
+input:focus, textarea:focus {
+    outline-color:#d5cad3;
+}
+
+footer {
+    background-color: #d5cad3;
+    color: #2a3258;
+    padding: 16px 0;
+}
